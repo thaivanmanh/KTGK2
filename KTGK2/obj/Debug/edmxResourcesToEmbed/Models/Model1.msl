@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KTGK2ModelStoreContainer" CdmEntityContainer="KTGK2Entities">
+    <EntitySetMapping Name="Phones">
+      <EntityTypeMapping TypeName="KTGK2Model.Phone">
+        <MappingFragment StoreEntitySet="Phone">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="gerenal_not" ColumnName="gerenal_not" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
